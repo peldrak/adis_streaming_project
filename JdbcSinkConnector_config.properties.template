@@ -1,0 +1,12 @@
+name = JdbcSinkConnectorConnector_0
+connector.class = io.confluent.connect.jdbc.JdbcSinkConnector
+tasks.max = 1
+value.converter = io.confluent.connect.avro.AvroConverter
+topics = TH1
+connection.url = jdbc:postgresql://cosgkbcd5i.feizvkk3pz.tsdb.cloud.timescale.com:36773/tsdb
+connection.user = tsdbadmin
+connection.password = oq6rmuf1ahdrfd6k
+table.name.format = TH1_table
+auto.create = true
+auto.evolve = true
+value.converter.schema.registry.url = http://localhost:8081
