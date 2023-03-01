@@ -1,4 +1,4 @@
-# adis_streaming_project
+# IoT live streaming project
 
 ## Run Confluent Platform
 
